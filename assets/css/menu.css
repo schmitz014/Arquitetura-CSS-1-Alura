@@ -1,8 +1,8 @@
-.menu-item {
+.menu__item {
     list-style: none;
 }
 
-.menu-lista {
+.menu__lista {
     display: flex;
 }
 
@@ -11,13 +11,13 @@
     font-weight: bold;
 }
 
-.menu-link {
+.menu__link {
     color: #808080;
     margin-right: 3rem;
     text-decoration: none;
     font-size: large;
 }
 
-.menu-link:hover {
+.menu__link:hover {
     text-decoration: underline;
 }
