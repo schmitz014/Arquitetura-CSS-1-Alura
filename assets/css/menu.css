@@ -1,0 +1,23 @@
+.menu-item {
+    list-style: none;
+}
+
+.menu-lista {
+    display: flex;
+}
+
+#ativo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu-link {
+    color: #808080;
+    margin-right: 3rem;
+    text-decoration: none;
+    font-size: large;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
