@@ -1,0 +1,22 @@
+
+.banner {
+    position: relative;
+
+    & img {
+        height: calc(100vh - 72px);
+        width: 100%;
+    }
+
+    & h2 {
+        font-family: var(--font-title);
+        color: #fdfdfd;
+        font-size: 8rem;
+        position: absolute;
+        left: 50%;
+        text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+}

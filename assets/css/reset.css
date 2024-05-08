@@ -1,5 +1,10 @@
+:root {
+    --font-body: Roboto, sans-serif;
+    --font-title: Pacifico, cursive;
+}
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: var(--font-body);
 }
 
 h1, h2, h3, h4, h5, h6 {
