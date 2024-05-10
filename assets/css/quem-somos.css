@@ -45,11 +45,12 @@
     margin: 1rem 0;
     font-family: var(--font-title);
     color: #8d0606;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .pessoa-funcao {
     text-transform: lowercase;
     color: #595959;
-    font-size: 2rem;
+    font-family: var(--font-title);
+    font-size: 3rem;
 }
