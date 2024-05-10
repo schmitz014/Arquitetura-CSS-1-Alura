@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    align-items: center;
+    background: #bfbfbf;
+    padding: 1rem 2.5rem;
+
+    & span {
+        margin-right: auto;
+        color: #8d0606;
+        text-transform: lowercase;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    & img { 
+        height: 3rem;
+        margin-left: 2rem;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1); 
+        }
+    }
+}
