@@ -3,6 +3,10 @@
     --font-title: Pacifico, cursive;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: var(--font-body);
 }
