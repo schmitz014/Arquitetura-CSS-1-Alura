@@ -54,3 +54,39 @@
     font-family: var(--font-title);
     font-size: 3rem;
 }
+
+@media screen and (min-width: 0) {
+    .pessoas {
+        flex-direction: column;
+    }
+
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+
+    .pessoa-nome {
+        font-size: 2.5rem;
+    }
+
+    .pessoa-funcao {
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+    }
+
+    .pessoa {
+        margin-bottom: 0;
+    }
+    
+    .pessoa-nome {
+        font-size: 5rem;
+    }
+
+    .pessoa-funcao {
+        font-size: 3rem;
+    }
+}
