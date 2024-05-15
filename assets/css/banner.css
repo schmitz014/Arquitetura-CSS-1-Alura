@@ -2,7 +2,7 @@
 .banner {
     position: relative;
 
-    & .logo {
+    & #img-banner {
         width: 100%;
     }
 
@@ -19,22 +19,30 @@
     }
 }
 
-@media  screen and (min-width: 0) {
-    .logo {
-        height: 10px;
-    }
 
-    h2 {
-        font-size: 4rem;
+@media screen and (min-width: 0) {
+
+    .banner {
+        & #img-banner {
+            height: calc(100vh - 51px);
+        }
+
+        & h2 {
+            font-size: 4rem;
+        }
     }
 }
 
 @media screen and (min-width: 768px) {
-    .logo {
-        height: 20px;
-    }
 
-    h2 {
-        font-size: 8rem;
+    .banner {
+        & #img-banner {
+            height: calc(100vh - 72px);
+        }
+
+        & h2 {
+            font-size: 8rem;
+        }
     }
 }
+
